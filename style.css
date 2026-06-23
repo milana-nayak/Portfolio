@@ -178,18 +178,37 @@ section h2{
 /* ==========================
    CONTACT
 ========================== */
-#contact p{
-    margin-bottom:15px;
+/* ==========================
+   CONTACT CARDS
+========================== */
+
+.contact-card{
+    background:#ffffff;
+    border-left:5px solid #2563eb;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
 }
 
-#contact a{
-    text-decoration:none;
+.contact-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.contact-card h3{
     color:#2563eb;
+    margin-bottom:10px;
+}
+
+.contact-card a{
+    color:#333;
     font-weight:bold;
 }
 
-#contact a:hover{
-    text-decoration:underline;
+.contact-card a:hover{
+    color:#2563eb;
 }
 
 /* ==========================
