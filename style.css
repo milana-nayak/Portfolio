@@ -247,3 +247,63 @@ button{
 }
 
 }
+/* ==========================
+   DARK MODE BUTTON
+========================== */
+
+#theme-toggle{
+    float:right;
+    margin-right:20px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+#theme-toggle:hover{
+    background:#1d4ed8;
+}
+
+/* ==========================
+   DARK MODE
+========================== */
+
+.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+.dark-mode section{
+    background:#1f1f1f;
+    color:white;
+}
+
+.dark-mode nav{
+    background:#181818;
+}
+
+.dark-mode footer{
+    background:#000;
+}
+
+.dark-mode .project{
+    background:#242424;
+    color:white;
+}
+
+.dark-mode .contact-card{
+    background:#242424;
+    color:white;
+}
+
+.dark-mode a{
+    color:#66b3ff;
+}
+
+.dark-mode h2,
+.dark-mode h3{
+    color:#66b3ff;
+}
